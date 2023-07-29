@@ -1,20 +1,12 @@
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
 
-import bille from '../../'
+import GetStarted from './src/screens/GetStarted';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Image source={}/>
-    </View>
+    <>
+      <GetStarted />
+      <StatusBar style="light" translucent/>
+    </>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
