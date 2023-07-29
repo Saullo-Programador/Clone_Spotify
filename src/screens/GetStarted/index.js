@@ -24,47 +24,47 @@ export default function GetStarted() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#0D0C0C',
-    alignItems: 'center',
-  },
-  footer:{
-    top: 420,
-    alignItems:"center",
-  },
-  footerTitle:{
-    color: "#D9D9D9",
-    fontSize: 25,
-    fontWeight: "700",
-    lineHeight: 33,
-    bottom: 21,
-  },
-  footerText:{
-    color: "#797979",
-    width: 310,
-    fontSize: 17,
-    textAlign: "center",
-    fontWeight: "400",
-    lineHeight: 22,
-  },
-  bts:{
-    border: "none",
-    height: 92,
-    width: 329,
-    backgroundColor: "#42c73b",
-    borderRadius: 30,
-    top: 37,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-  btsText:{
-    color: "#F6F6F6",
-    fontSize: 26,
-    fontWeight: "700",
-    lineHeight: 35,
-    textTransform: "capitalize",
-    textAlign: "center",
+    container: {
+        flex: 1,
+        backgroundColor: '#0D0C0C',
+        alignItems: 'center',
+    },
+    footer:{
+        top: 420,
+        alignItems:"center",
+    },
+    footerTitle:{
+        color: "#D9D9D9",
+        fontSize: 25,
+        fontWeight: "700",
+        lineHeight: 33,
+        bottom: 21,
+    },
+    footerText:{
+        color: "#797979",
+        width: 310,
+        fontSize: 17,
+        textAlign: "center",
+        fontWeight: "400",
+        lineHeight: 22,
+    },
+    bts:{
+        border: "none",
+        height: 92,
+        width: 329,
+        backgroundColor: "#42c73b",
+        borderRadius: 30,
+        top: 37,
+        alignItems: "center",
+        justifyContent: "center",
+    },
+    btsText:{
+        color: "#F6F6F6",
+        fontSize: 26,
+        fontWeight: "700",
+        lineHeight: 35,
+        textTransform: "capitalize",
+        textAlign: "center",
 
-  },
+    },
 });
