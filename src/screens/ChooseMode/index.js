@@ -1,6 +1,6 @@
 import { View, StyleSheet, Image, Text, TouchableOpacity} from 'react-native';
 
-import image from '../../assets/image1.png'
+import image from '../../assets/image4.1.png'
 import Spotify from '../../assets/Spotify.svg'
 import Sun from '../../assets/Sun.svg'
 import Moon from '../../assets/Moon.svg'
@@ -40,14 +40,14 @@ export default function ChooseMode() {
 const styles = StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor: "#D9D9D9",
+        backgroundColor: "#434141",
         alignItems: 'center',
     },
     bg:{
         position:"absolute",
         width: "100%",
         height: "100%",
-        
+        top: 0,
     },
     footer:{
         top: 340,
