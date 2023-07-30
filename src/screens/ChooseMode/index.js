@@ -1,9 +1,10 @@
 import { View, StyleSheet, Image, Text, TouchableOpacity} from 'react-native';
 
-import image from '../../assets/image3.png'
-import Spotify from '../../assets/Spotify.svg'
-import Sun from '../../assets/Sun.svg'
-import Moon from '../../assets/Moon.svg'
+
+import image from "../../assets/image3.png";
+import Spotify from "../../assets/Spotify.svg";
+import Sun from "../../assets/Sun.svg";
+import Moon from "../../assets/Moon.svg";
 
 export default function ChooseMode() {
   return (
