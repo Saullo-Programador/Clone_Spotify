@@ -1,6 +1,6 @@
 import { View, StyleSheet, Image, Text, TouchableOpacity} from 'react-native';
 
-import image from '../../assets/image4.1.png'
+import image from '../../assets/image3.png'
 import Spotify from '../../assets/Spotify.svg'
 import Sun from '../../assets/Sun.svg'
 import Moon from '../../assets/Moon.svg'
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
         top: 0,
     },
     footer:{
-        top: 340,
+        top: 350,
         alignItems: "center",
     },
     footerTitle:{
