@@ -81,25 +81,32 @@ const styles = StyleSheet.create({
     },
     containerButtons:{
         width:"100%",
-        flexDirection: "row",
+
         alignItems:"center",
         justifyContent: "space-between",
         marginTop: 40,
     },
     buttonsRegister:{
         backgroundColor:"#42C73B",
+        borderWidth: 1,
+        borderColor: "#42C73B",
         height: 65,
-        width: 140,
+        width: 160,
         justifyContent: "center",
         alignItems: "center",
         borderRadius: 30,
+        
     },
     buttonsLogin:{
         height: 65,
-        width: 140,
+        width: 160,
         justifyContent: "center",
         alignItems: "center",
-        
+        top: 20,
+        backgroundColor: "transparent",
+        borderWidth: 1,
+        borderColor: "#42C73B",
+        borderRadius: 30,
     },
     textRegister:{
         color: "#FFFFFF",

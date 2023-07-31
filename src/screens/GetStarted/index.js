@@ -3,10 +3,10 @@ import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
 import bille from '../../assets/bille.png'
 import Spotify from '../../assets/Spotify.svg'
 
-export default function GetStarted() {
+export default function GetStarted({ navigation }) {
   return (
     <View style={styles.container}>
-      <Image source={bille} style={{position:"absolute"}}/>
+      <Image source={bille} style={{ width:"100%", height:"100%",position:"absolute",}}/>
       <Spotify style={{margin: 50}}/>
 
       <View style={styles.footer}>
@@ -15,7 +15,9 @@ export default function GetStarted() {
             O cliente é muito importante, o cliente será seguido pelo cliente. Pois as flechas 
             são claras, mas sem fases. É hora de decorá-lo com um pouco de chocolate.
         </Text>
-        <TouchableOpacity style={styles.bts}>
+        <TouchableOpacity style={styles.bts} 
+        title = "ChooseMode" 
+        onPress={ () => navigation.navigate('ChooseMode')}>
             <Text style={styles.btsText}>Get Started</Text>
         </TouchableOpacity>
       </View>
