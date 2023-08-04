@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
     },
     buttonsRegister:{
         backgroundColor:"#42C73B",
-        borderWidth: 1,
+        borderWidth: 1, 
         borderColor: "#42C73B",
         height: 65,
         width: 160,
@@ -104,7 +104,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         top: 20,
         backgroundColor: "transparent",
-        borderWidth: 1,
+        borderWidth: 1, 
         borderColor: "#42C73B",
         borderRadius: 30,
     },
